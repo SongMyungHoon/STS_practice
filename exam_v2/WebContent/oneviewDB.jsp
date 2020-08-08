@@ -19,7 +19,7 @@
 			 * ExamRIO 형태로 데이터를 받아온다. */
 			ExamRIO exam = ExamRepo.getRecordById(studentId);
 	%>
-	<table cellspacint=1 width=600 border=1>
+	<table cellspacing=1 width=600 border=1>
 	<tr>
 		<td width=50><p align=center>이름</p></td>
 		<td width=50><p align=center>학번</p></td>

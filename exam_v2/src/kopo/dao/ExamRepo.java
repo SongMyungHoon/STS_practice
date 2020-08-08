@@ -15,7 +15,7 @@ public class ExamRepo {
 		Connection con = null;
 		final String id = "root";
 		final String password = "qortjf90";
-		final String accessURL = "jdbc:mysql://192.168.23.110:33060/"
+		final String accessURL = "jdbc:mysql://localhost:3306/"
 				+ "?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul"
 				+ "&allowPublicKeyRetrieval=true&useSSL=false";
 		final String dbName = "koposw26";
